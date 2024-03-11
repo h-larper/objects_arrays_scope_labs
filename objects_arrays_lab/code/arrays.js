@@ -84,3 +84,9 @@ console.log(stoppingAtDurham);
  * Q9.
  * If we are stopping at Durham, print "Yay Durham!" to the terminal. If not print "Aww...".
  */
+stoppingAtDurham = stations.includes("Durham, 0");
+if (stoppingAtDurham === false) {
+    console.log("Aww...")
+} else {
+    console.log("Yay Durham!");
+}
