@@ -39,9 +39,8 @@ stationCount = console.log(stations.length);
  * Which station is the third stop?
  */
 
-thirdStation = null;
-
-// console.log("The third station is " + thirdStation);
+thirdStation = stations[2];
+console.log("The third station is " + thirdStation + ".");
 
 
 
