@@ -63,10 +63,8 @@ console.log(northernIrelandKeys);
 
 scotland = unitedKingdom[0];
 wales = unitedKingdom[2];
-for (let population of unitedKingdom) {
   if (scotland.population > wales.population) {
     console.log("Scotland has a bigger population");
   } else {
-    console.log("Wales has a bigger population")
+    console.log("Wales has a bigger population");
   }
-}
